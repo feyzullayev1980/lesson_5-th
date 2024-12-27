@@ -1,0 +1,90 @@
+ * {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;    
+ }
+
+ ul,
+ ol {
+   list-style: none;
+ }
+
+ .container-boss {
+   background-color: rgb(42, 37, 75);
+   width: 1856px; 
+   padding: 50px;
+   height: 1500px; 
+ }  
+   
+   .header{
+      margin-bottom: 50px;
+   }
+
+.container {
+display: flex;   
+justify-content: space-around;
+gap: 80px;
+flex-wrap:wrap;
+}
+
+.inner-container {
+display: flex;   
+justify-content: space-between;
+gap: 20px;
+flex-wrap:wrap;
+}
+
+.box-styles {
+width: 824px;
+height: 560px;
+padding: 32px 24px 0px 24px;
+background-color: rgb(78, 77, 147);
+}
+
+.box-components {
+width: 824px;
+height: 560px;
+padding: 32px 24px 0px 24px;
+background-color: rgb(78, 77, 147);
+}
+
+.box-layouts {
+width: 824px;
+height: 560px;   
+padding: 32px 24px 0px 24px;
+background-color: rgb(78, 77, 147);
+}
+      
+.box-blocks {
+width: 824px;
+height: 560px;   
+padding: 32px 24px 0px 24px;
+background-color: rgb(78, 77, 147);
+}
+
+.inner-box {
+width: 230px;
+display: flex;
+justify-content: space-between;
+}
+
+.first-box{
+background-color: black;
+padding: 30px 30px 30px 30px;
+margin-bottom: 20px;
+height: 220px;
+}
+
+.second-box{
+background-color: black;
+padding: 30px 30px 30px 30px;
+margin-bottom: 20px;
+height: 300px;
+}
+
+.third-box{
+background-color: black;
+padding: 30px 30px 30px 30px;
+margin-bottom: 20px;
+height: 220px;
+}
